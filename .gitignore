@@ -1,0 +1,7 @@
+# Project exclude paths
+/out/
+/.idea
+/.test.*
+/*.save
+/*.uml
+/*.png

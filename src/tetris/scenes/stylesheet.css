@@ -1,0 +1,113 @@
+.generalButton {
+    -fx-background-color: rgb(40, 96, 177);
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    -fx-padding: 20px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-min-width: 300px;
+    -fx-effect: dropshadow(three-pass-box, rgb(18, 49, 90), 8, 0, 0, 0);
+}
+
+.btnMain {
+    -fx-background-color: rgb(40, 96, 177);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 15 10 15;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgb(18, 49, 90), 8, 0, 0, 0);
+}
+
+.btnUser {
+    -fx-background-color: rgb(40, 96, 177);
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-effect: dropshadow(three-pass-box, rgb(18, 49, 90), 8, 0, 0, 0);
+}
+
+.lblBold {
+    -fx-fill: rgb(190, 190, 190);
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Segoe UI";
+    -fx-padding: 0 0 15px 0;
+}
+
+.bold {
+    -fx-font-weight: bold;
+    -fx-fill: rgb(190, 190, 190);
+}
+
+.big {
+    -fx-font-size: 1.5em;
+}
+
+.tScores {
+    -fx-background-color: rgb(161, 184, 229);
+    -fx-fill-widht: true;
+    -fx-alignment: center;
+
+    -fx-padding: 30px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+}
+
+.tScores > * {
+    -fx-fill: rgb(34, 48, 69);
+    -fx-font-size: 1.2em;
+}
+
+.spacer {
+    -fx-padding: 20px;
+    -fx-border-insets: 20px;
+    -fx-background-insets: 20px;
+}
+
+.vBoxScore {
+    -fx-alignment: center;
+}
+
+.background {
+    -fx-background-color: #161616;
+}
+
+.grid {
+    -fx-vgap: 2;
+    -fx-hgap: 2;
+    -fx-padding: 2;
+}
+
+.score {
+    -fx-fill: rgb(228, 228, 228);
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Segoe UI";
+}
+
+.lbl {
+    -fx-fill: rgb(190, 190, 190);
+    -fx-font-size: 15px;
+    -fx-font-family: "Segoe UI Semilight";
+    -fx-padding: 0 0 15px 0;
+}
+
+.sliderHome {
+    -fx-padding: 4 0 10 5;
+}
+
+.sliderGame {
+    -fx-padding: 10 0 0 0;
+}
+
+.slider .thumb {
+    -fx-background-color: rgb(40, 96, 177);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 8, 0, 0, 0);
+}
+
+.slider .track {
+    -fx-background-color: rgb(255, 255, 255);
+}
+
+.menu-bar {
+    -fx-background-color: derive(#FF1d1d,20%); // your color here
+}
